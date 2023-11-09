@@ -94,8 +94,8 @@ setlocal
 :PROMPT
 SET /P AREYOUSURE=Proceed with environmental variables setup (Y/[N])?
 IF /I "%AREYOUSURE%" NEQ "Y" GOTO END
-setx HTTP_PROXY "http://proxy-se-uan.ddc.teliasonera.net:8080"
-setx HTTPS_PROXY "http://proxy-se-uan.ddc.teliasonera.net:8080"
+setx HTTP_PROXY "http://examplehttp.net:8080"
+setx HTTPS_PROXY "http://examplehttps.net:8080"
 
 :: Set Environment variables
 :: setx variablename "C:\ProgramData\(value to setup)"
